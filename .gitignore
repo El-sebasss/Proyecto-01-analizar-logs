@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+
+#logs generados (no subir archivos grandes)
+
+data/*.log
+logs/*.log
