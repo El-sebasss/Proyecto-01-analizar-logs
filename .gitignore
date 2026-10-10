@@ -5,7 +5,14 @@ venv/
 .env
 
 
-#logs generados (no subir archivos grandes)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
 
+# Ignorar logs generados automáticamente
 data/*.log
-logs/*.log
+
+# Pero sí versionar el log de ejemplo (pequeño y escrito a mano)
+!data/acceso_ejemplo.log
